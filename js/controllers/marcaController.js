@@ -11,7 +11,8 @@ async function render() {
             <td>${m.id}</td>
             <td>${m.nome}</td>
             <td>
-                <button class="btn btn-sm btn-info text-white" onclick="prepararEdicao(${m.id}, '${m.Nome}')">Editar</button>
+                <button class="btn btn-sm btn-info text-white" onclick="prepararEdicao(${m.id}, '${m.nome}')">Editar</button>
+
                 <button class="btn btn-sm btn-danger" onclick="deletar(${m.id})">Excluir</button>
             </td>
         </tr>`).join('');

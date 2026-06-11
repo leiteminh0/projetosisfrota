@@ -1,4 +1,4 @@
-const URL = "https://x8ki-letl-twmt.n7.xano.io/api:ijUECDHD/modelo";
+const URL = "https://x8ki-letl-twmt.n7.xano.io/api:CDe5l-4y/modelo";
 export const modeloService = {
     listar: () => fetch(URL).then(r => r.json()),
     cadastrar: (d) => fetch(URL, { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(d) }),
